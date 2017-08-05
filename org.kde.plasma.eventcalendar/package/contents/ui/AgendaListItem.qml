@@ -348,7 +348,7 @@ RowLayout {
                             upcomingEvents.sendEventStartingNotification(model)
                         } else {
                             // cfg_agenda_event_clicked == "browser_viewevent"
-                            Qt.openUrlExternally(htmlLink)
+                            Qt.openUrlExternally(hangoutLink)
                         }
                     }
 
@@ -391,9 +391,9 @@ RowLayout {
                         menuItem = contextMenu.newMenuItem();
                         menuItem.text = i18n("Edit in browser");
                         menuItem.icon = "internet-web-browser"
-                        menuItem.enabled = !!event.htmlLink
+                        menuItem.enabled = !!event.hangoutLink
                         menuItem.clicked.connect(function() {
-                            Qt.openUrlExternally(model.htmlLink)
+                            Qt.openUrlExternally(model.hangoutLink)
                         });
                         contextMenu.addMenuItem(menuItem);
                     }

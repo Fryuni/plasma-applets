@@ -15,7 +15,7 @@ function getEventData() {
             "etag": "\"2561779720126000\"",
             "id": "debug_" + start.dateTime.getTime() + "_" + end.dateTime.getTime(),
             "status": "confirmed",
-            "htmlLink": "https://www.google.com/calendar/event?eid=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&ctz=Etc/UTC",
+            "hangoutLink": "https://www.google.com/calendar/event?eid=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&ctz=Etc/UTC",
             "created": "2008-03-24T22:34:26.000Z",
             "updated": "2010-08-04T02:44:20.063Z",
             "summary": summary,

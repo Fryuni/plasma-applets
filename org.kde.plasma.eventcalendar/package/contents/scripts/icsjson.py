@@ -36,7 +36,7 @@ def eventsToJson(eventList=None, indent=4):
 		)
 		
 		item['status'] = 'confirmed' # TODO: event['STATUS']
-		item['htmlLink'] = ''
+		item["hangoutLink"] = ''
 		item['created'] = event['CREATED'].dt.isoformat()
 		item['updated'] = event['LAST-MODIFIED'].dt.isoformat()
 
